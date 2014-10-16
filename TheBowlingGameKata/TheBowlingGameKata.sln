@@ -5,6 +5,10 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheBowlingGameKata", "TheBowlingGameKata\TheBowlingGameKata.csproj", "{8D1473FA-D2D8-4DD5-923E-57D7AE65A276}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit Tests", "Unit Tests", "{375524B5-7994-4859-AD33-FA3E4F995BC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheBowlingGameKata.Tests", "TheBowlingGameKata.Tests\TheBowlingGameKata.Tests.csproj", "{5192F8C0-40DD-47C2-889A-33CEAB69E302}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +19,15 @@ Global
 		{8D1473FA-D2D8-4DD5-923E-57D7AE65A276}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D1473FA-D2D8-4DD5-923E-57D7AE65A276}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D1473FA-D2D8-4DD5-923E-57D7AE65A276}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5192F8C0-40DD-47C2-889A-33CEAB69E302}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5192F8C0-40DD-47C2-889A-33CEAB69E302}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5192F8C0-40DD-47C2-889A-33CEAB69E302}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5192F8C0-40DD-47C2-889A-33CEAB69E302}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5192F8C0-40DD-47C2-889A-33CEAB69E302} = {375524B5-7994-4859-AD33-FA3E4F995BC6}
 	EndGlobalSection
 EndGlobal
